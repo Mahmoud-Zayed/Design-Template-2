@@ -1,0 +1,273 @@
+*,*:after,*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1150px;
+    margin: auto;
+}
+.clearfix {
+    clear: both;
+}
+/* Start Header */
+.header {
+    width: 100%;
+    height: 340px;
+    background-color: blueviolet;
+}
+.header .heading {
+    width: 50%;
+    height: 180px;
+    float: left;
+    margin-top: 90px;
+    border-right: 2px solid #ccc;
+
+}
+.header .heading h2 {
+    width: 65%;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 32px;
+}
+.header .heading h2 span:hover {
+    color: #00bcba;
+    cursor: pointer;
+}
+.header .lorem {
+    width: 40%;
+    margin-left: 3%;
+    margin-top: 90px;
+    float: left;
+}
+.header .lorem p {
+    font-family: Tahoma;
+    color: #dfe4ea;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.header .lorem button {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    background: #00bcba;
+    padding: 12px;
+    border-radius: 50px;
+    width: 190px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+}
+/* End Header */
+
+/* Start Magna */
+.magna {
+    width: 100%;
+    height: 310px;
+    border-bottom: 2px solid #ddd;
+    padding-top: 45px;
+}
+.magna .learn {
+    width: 50%;
+    float: left;
+    border-right: 2px solid #ddd;
+}
+.magna .learn h2 {
+    width: 90%;
+    font-family: Tahoma;
+    color: #777;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.magna .learn p {
+    width: 90%;
+    line-height: 1.6;
+    font-family: Tahoma;
+    color: #888;
+}
+.magna .learn button {
+    border: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 30px;
+    width: 190px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    color: #888;
+}
+.ipsum {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    visibility: hidden;
+}
+.ipsum p {
+    line-height: 2.8;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #666;
+}
+.ipsum i {
+    padding-right: 25px;
+    color: #00bcba;
+
+}
+/* End Magna */
+
+/* Start pharetra */
+.pharetra {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.pharetra .part {
+    margin-bottom: 40px;
+    height: 300px;
+}
+.pharetra .part img {
+    float: left;
+    width: 40%;
+    opacity: 0.9;
+}
+.pharetra .part .he {
+    float: left;
+    width: 50%;
+    padding-left: 65px;
+    padding-top: 50px;
+}
+.pharetra .part .he h2 {
+    color: #777;
+    font-family: Tahoma;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.pharetra .part .he p {
+    color: #888;
+    font-family: Tahoma;
+    line-height: 2;
+    font-weight: bold;
+}
+.pharetra .part .he button {
+    background-color: none;
+    border: 2px solid #ddd;
+    width: 170px;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 18px;
+    color: #777;
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    outline: 0;
+}
+.pharetra .part .he button:hover {
+    background-color: #999;
+    color: #fff;
+}
+.pharetra .button_last {
+    border: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 18px;
+    border-radius: 30px;
+    width: 250px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    color: #888;
+    margin-left: 40%;
+    font-size: 16px;
+}
+/* End pharetra */
+
+/* Start Form */
+.form {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.form .inputs {
+    width: 50%;
+    float: left;
+    border-right: 2px solid #ddd;
+}
+.form .inputs h2 {
+    font-family: Tahoma;
+    margin-bottom: 5px;
+}
+.form .inputs p {
+    font-family: Tahoma;
+    line-height: 2;
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 10px;
+}
+.form .inputs input[type=text] , input[type=email] {
+    width: 250px;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.form .inputs textarea {
+    width: 505px;
+    outline: 0;
+    padding-left: 20px;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 5px;
+    height: 160px;
+}
+.form .inputs input[type=submit] {
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    text-transform: uppercase;
+    outline: 0;
+}
+.form .links {
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.form .links p {
+    line-height: 2.5;
+}
+.form .links p i {
+    padding-right: 25px;
+    color: #00bcba;
+}
+/* End Form */
+
+/* Start Footer */
+.footer {
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+.footer p {
+    text-align: center;
+    line-height: 25px;
+    font-family: Tahoma;
+    color: #777;
+}
+/* End Footer */
